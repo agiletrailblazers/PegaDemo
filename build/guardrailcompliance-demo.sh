@@ -3,6 +3,7 @@ buildNumber=$1
 env=$2
 bwd=$(pwd)
 GuardrailRequestData_xml="$(pwd)/build/Request/GuardrailsRequestData.xml"
+cat $(pwd)/build/Request/GuardrailsRequestData.xml
 
 #Check Guardrail Compliance For Current Build
 
